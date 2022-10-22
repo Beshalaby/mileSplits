@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #575757;
+    color: white;
+}
+
+main{
+    background-color: #282828;
+    width: 35%;
+    height: 32em;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+hr{
+    width:80%;
+    color: grey;
+    margin-left: 10%;
+}
+
+#title{
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding-top: 4%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.form_wrapper{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.name_text{
+    display: inline-block;
+}
+
+.name_input{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    border-radius: 999px;
+    height: 3vh;
+}
+
+input{
+    text-align: center;
+}
+
+.mile_time{
+    margin-bottom: 1%;
+}
+
+.minute_time{
+    display: inline-block;
+    border-radius: 999px;
+    height: 3vh;
+}
+
+.second_time{
+    display: inline-block;
+    border-radius: 999px;
+    height: 3vh;
+}
+
+.input_area{
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: #282828;
+    display: inline-block;
+    padding: 1%;
+    border-radius: 9999px;
+}
+
+#submit_button{
+    display: block;
+    margin-left: 42%;
+    margin-top: 2%;
+    width: 20%;
+    height: 40px;
+    border-radius: 999px;
+}
+
+table{
+    width: 35%;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+@media (max-width:800px) {
+    main{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
