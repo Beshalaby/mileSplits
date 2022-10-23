@@ -26,4 +26,12 @@ function addTime () {
     cell2.innerHTML = secondsToMinutes(split1);
     cell3.innerHTML = secondsToMinutes(split2);
     cell4.innerHTML = secondsToMinutes(split3);
+
+    document.getElementById("name_input").value = "";
+    document.getElementById("mile1min").value = "";
+    document.getElementById("mile1sec").value = "";
+    document.getElementById("mile2min").value = "";
+    document.getElementById("mile2sec").value = "";
+    document.getElementById("mile3min").value = "";
+    document.getElementById("mile3sec").value = "";
 }
