@@ -1,7 +1,7 @@
 {
     "name": "Mile Splits",
     "short_name": "Mile Splits",
-    "start_url": "/",
+    "start_url": "",
     "icons": [
             {
               "src": "icons/manifest-icon-192.maskable.png",
